@@ -1,0 +1,23 @@
+
+1) dotnet new webapi -n Catalog.Api
+https://localhost:5901/swagger/index.html
+
+2) Enitity, Repository, Controller
+Entities/
+    Product
+    RecoredType?
+Repository/
+    ProductRepository
+    SingleOrDefault vs FirstOrDefault --L INQ
+Controllers/
+    ProductController
+    ControllerBase
+    ActionResult<Product>
+        Ok(product)
+        NotFound()
+
+3) Dependency Injectoin, Dtos
+{
+  "name": "Platinum Sword",
+  "price": 35
+}
