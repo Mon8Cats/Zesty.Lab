@@ -1,0 +1,42 @@
+1) Glob Patterns
+? matches any one character
+* matches any number of characters
+{!glob} Matches anything that does not match glob
+{a,b,c} matches any one of a, b or c
+[abc] matches any character in the set a, b or c
+[^abc] matches any character not in the set a, b or c
+[a-z] matches any character in the range a to z, inclusive. A leading or trailing dash will be interpreted literally
+
+\w matches any alphanumeric character or underscore
+\s matches a space or horizontal tab
+\S matches a printable non-whitespace.
+\d matches a decimal digit
+
+* - all files.
+*.java - all files whose names end with “.java”.
+*.[ch] - all files whose names end with either “.c” or “.h”.
+*.{c,cpp,h,hpp,cxx,hxx} - all C or C++ files.
+[^#]* - all files whose names do not start with “#”.
+
+(re).*\.(h|c(c|pp)?)
+Matches *.c, *.cpp, *.h, *.cc
+
+dotnet sln add **/*.csproj 
+dotnet sln list
+
+2) Unit Tests Example
+[Fact]
+public void Test(){ ... }
+
+[Theory]
+[InlineData("foo", 1)]
+[InlineData("bar", 1)]
+public void Test(string input, int bar){ ... }
+
+3) Unit Test Project
+dotnet add reference ../CloudCustomers.API/
+
+4) No tests found
+Settings: Workspace
+ 	search Dotnet-text-explore: Test Project Path
+	and enter	"**/*Tests.csproj"
