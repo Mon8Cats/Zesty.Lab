@@ -41,3 +41,5 @@
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Service/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Service/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Service/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Service/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Service/bin/Debug/net6.0/Play.Common.dll

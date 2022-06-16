@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Play.Common.Contracts;
 
 namespace Play.Catalog.Service.Entities
 {
 
-    public class Item : IEntityX
+    public class Item : IEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

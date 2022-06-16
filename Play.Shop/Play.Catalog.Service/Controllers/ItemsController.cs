@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Play.Catalog.Service.Dtos;
 using Play.Catalog.Service.Entities;
 using Play.Catalog.Service.Mappers;
-using Play.Catalog.Service.Repositories;
+using Play.Common.Contracts;
 
 namespace Play.Catalog.Service.Controllers
 {
@@ -20,9 +20,9 @@ namespace Play.Catalog.Service.Controllers
         };
         */
 
-        private readonly IRepositoryX<Item> itemsRepository ;
+        private readonly IRepository<Item> itemsRepository ;
 
-        public ItemsController(IRepositoryX<Item> itemsRepository)
+        public ItemsController(IRepository<Item> itemsRepository)
         {
             this.itemsRepository = itemsRepository;
         }
