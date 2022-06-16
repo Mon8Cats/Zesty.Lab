@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "vFurYdiv5EGP1fly4bTN9ZTK6L+jZyqocwQhMN8SxG8HFS4YgTRS0N1iGpsF0HypacbYah/vE0rWuBp4iSqPEw==",
+  "success": true,
+  "projectFilePath": "/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/Play.Common.csproj",
+  "expectedPackageFiles": [
+    "/Users/stoneroot/.nuget/packages/dnsclient/1.6.0/dnsclient.1.6.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/mongodb.bson/2.16.0/mongodb.bson.2.16.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/mongodb.driver/2.16.0/mongodb.driver.2.16.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/mongodb.driver.core/2.16.0/mongodb.driver.core.2.16.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/mongodb.libmongocrypt/1.5.2/mongodb.libmongocrypt.1.5.2.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/stoneroot/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

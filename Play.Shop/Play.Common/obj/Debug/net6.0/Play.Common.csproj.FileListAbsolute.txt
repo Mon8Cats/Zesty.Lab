@@ -1,0 +1,12 @@
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.csproj.AssemblyReference.cache
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.AssemblyInfoInputs.cache
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.AssemblyInfo.cs
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.csproj.CoreCompileInputs.cache
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/bin/Debug/net6.0/Play.Common.deps.json
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/bin/Debug/net6.0/Play.Common.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/bin/Debug/net6.0/ref/Play.Common.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/bin/Debug/net6.0/Play.Common.pdb
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/ref/Play.Common.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/obj/Debug/net6.0/Play.Common.pdb
