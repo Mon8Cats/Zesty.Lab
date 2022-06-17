@@ -1,0 +1,12 @@
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/bin/Debug/net6.0/Play.Catalog.Contracts.deps.json
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/bin/Debug/net6.0/Play.Catalog.Contracts.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/bin/Debug/net6.0/ref/Play.Catalog.Contracts.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/bin/Debug/net6.0/Play.Catalog.Contracts.pdb
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.csproj.AssemblyReference.cache
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.AssemblyInfoInputs.cache
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.AssemblyInfo.cs
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.csproj.CoreCompileInputs.cache
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/ref/Play.Catalog.Contracts.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Catalog.Contracts/obj/Debug/net6.0/Play.Catalog.Contracts.pdb

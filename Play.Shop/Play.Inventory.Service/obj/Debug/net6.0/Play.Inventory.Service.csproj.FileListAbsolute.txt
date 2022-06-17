@@ -46,3 +46,11 @@
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.Extensions.Http.Polly.dll
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Polly.dll
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Polly.Extensions.Http.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/MassTransit.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/MassTransit.Abstractions.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/MassTransit.AspNetCoreIntegration.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/MassTransit.RabbitMqTransport.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Play.Catalog.Contracts.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/RabbitMQ.Client.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/System.Text.Json.dll

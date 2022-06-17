@@ -18,14 +18,14 @@ namespace Play.Inventory.Service.Controllers
     {
         //private const string AdminRole = "Admin";
         private readonly IRepository<InventoryItem> _inventoryItemsRepository;
-        private readonly CatalogClient _catalogClient;
-        //private readonly IRepository<CatalogItem> catalogItemsRepository;
+        //private readonly CatalogClient _catalogClient;
+        private readonly IRepository<CatalogItem> _catalogItemsRepository;
 
-        public ItemsController(IRepository<InventoryItem> inventoryItemsRepository, CatalogClient catalogClient)
+        public ItemsController(IRepository<InventoryItem> inventoryItemsRepository, IRepository<CatalogItem> catalogItemsRepository )//, CatalogClient catalogClient)
         {
             _inventoryItemsRepository = inventoryItemsRepository;
-            _catalogClient = catalogClient;
-            //this.catalogItemsRepository = catalogItemsRepository;
+            //_catalogClient = catalogClient;
+            _catalogItemsRepository = catalogItemsRepository;
         }
 
         [HttpGet]
@@ -36,13 +36,15 @@ namespace Play.Inventory.Service.Controllers
                 return BadRequest();
             }
 
-            var catalogItems = await _catalogClient.GetCatalogItemsAsync();
+            //var catalogItems = await _catalogClient.GetCatalogItemsAsync();
             var inventoryItemEntities = await _inventoryItemsRepository.GetAllAsync(item => item.UserId == userId);
+            var itemIds = inventoryItemEntities.Select(item => item.CatalogItemId);
+            var catalogItemEntities = await _catalogItemsRepository.GetAllAsync(item => itemIds.Contains(item.Id));
    
 
             var inventoryItemDtos = inventoryItemEntities.Select(inventoryItem => 
             {
-                var catalogItem = catalogItems.Single(item => item.Id == inventoryItem.CatalogItemId);
+                var catalogItem = catalogItemEntities.Single(item => item.Id == inventoryItem.CatalogItemId);
                 return inventoryItem.AsDto(catalogItem.Name, catalogItem.Description);
             }); 
 
