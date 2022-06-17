@@ -838,7 +838,7 @@
     "/Users/stoneroot/.nuget/packages/": {}
   },
   "project": {
-    "version": "5.0.0",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Common/Play.Common.csproj",
       "projectName": "Play.Common",
