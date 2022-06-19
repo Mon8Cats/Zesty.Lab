@@ -1,0 +1,59 @@
+
+
+1) Packages and Tools:
+    dotnet tool install -g dotnet-aspnet-codegenerator
+
+    Microsoft.VisualStudio.Web.CodeGeneration.Design
+    Microsoft.AspNetCore.Identity.UI
+    Microsoft.EntityFrameworkCore.Design
+    Microsoft.EntityFrameworkCore.SqlServer
+
+    AspNetCore.Identity.MongoDbCore
+    Play.Common
+
+    dotnet aspnet-codegenerator identity --files "Account.Register"
+
+    IdentityServer4
+    IdentityServer4.AspNetIdentity
+
+
+2) Urls
+
+https://localhost:5103/identity/account/register -> register a user
+https://localhost:5103/swagger/index.html
+https://localhost:5103/.well-known/openid-configuration 
+https://localhost:5103/swagger/index.html --> UsersController actions 
+
+
+
+3) Configurations, Settings 
+
+builder.Services.AddDefaultIdentity<ApplicationUser>()
+    .AddRoles<ApplicationRole>()
+    .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>
+    (
+        mongoDbSettings.ConnectionString,
+        serviceSettings.ServiceName
+    );
+
+
+4) Postman
+Authorization
+    Type: OAuth 2.0 
+    Access Token: 
+    Header Prefix: Bearer 
+    Grant Type: Authorization Code with PKCE 
+    Gallback URL: urn:ietf:wg:oauth:2.0:oob
+    Auth URL: https://localhost:5103/connect/authorize?prompt=login
+    Access Toke URL: https://localhost:5103/connect/token
+    Client ID: postman
+    Client Secret:
+    Code Challenge Method: SHA-256
+    Code Verifier:
+    Scope: openid profile catalog.readaccess inventory.fullaccess IdentityServerApi
+    State:
+    Client Authentication:
+
+
+5) Logout Page 
+dotnet aspnet-codegenerator identity --files "Account.Logout"

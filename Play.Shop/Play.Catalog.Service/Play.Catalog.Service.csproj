@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.3" />
-    <PackageReference Include="Play.Common" Version="5.0.1" />
+    <PackageReference Include="Play.Common" Version="5.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 

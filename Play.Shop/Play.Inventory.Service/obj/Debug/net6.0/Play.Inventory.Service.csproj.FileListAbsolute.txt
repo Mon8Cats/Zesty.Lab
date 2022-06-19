@@ -54,3 +54,10 @@
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Play.Catalog.Contracts.dll
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/RabbitMQ.Client.dll
 /Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/System.Text.Json.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/stoneroot/Work.Space/Zesty.Lab/Play.Shop/Play.Inventory.Service/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
